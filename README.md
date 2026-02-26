@@ -3,4 +3,11 @@
 <br>
 <blockquote>Python Practice</blockquote>
 <details>
-    <summary>How Can i Help You ?</summary>
+  <summary><b>Click to expand:</b> How Can I Help You? ▾</summary>
+  <br>
+  
+  - 🛠️ **Technical Support**
+  - 📚 **Documentation**
+  - 💬 **General Inquiry**
+
+</details>
