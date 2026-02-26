@@ -4,7 +4,7 @@
 <br>
 <blockquote>Python Practice</blockquote>
 <details align="center">
-  <summary><b>Click to expand:</b> How Can I Help You? ▾</summary>
+  <summary><b>Click to expand:</b> How Can I Help You?</summary>
   <br>
   
   - 🛠️ **Technical Support**
