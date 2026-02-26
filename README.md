@@ -1,4 +1,4 @@
 # python-exercise
 <p>My Python Exercise Repo</p>
 <br>
-<blackquote>Python Practice</blackquote>
+<blockquote>Python Practice</blockquote>
