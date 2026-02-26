@@ -13,3 +13,7 @@
 
 </details>
 </div>
+
+![License](https://img.shields.io/github/license/username/repo)
+![Stars](https://img.shields.io/github/stars/username/repo)
+![Issues](https://img.shields.io/github/issues/username/repo)
