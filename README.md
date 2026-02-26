@@ -1,9 +1,9 @@
 # python-exercise
-<div align="center">
+<div>
 <p>My Python Exercise Repo</p>
 <br>
 <blockquote>Python Practice</blockquote>
-<details>
+<details align="center">
   <summary><b>Click to expand:</b> How Can I Help You? ▾</summary>
   <br>
   
@@ -12,4 +12,5 @@
   - 💬 **General Inquiry**
 
 </details>
+<input type="text" />
 </div>
