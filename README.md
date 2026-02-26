@@ -12,5 +12,3 @@
   - 💬 **General Inquiry**
 
 </details>
-<input type="text" />
-</div>
