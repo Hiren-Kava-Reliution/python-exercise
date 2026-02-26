@@ -16,7 +16,8 @@
 
 ![License](https://img.shields.io/github/license/username/repo)
 ![Stars](https://img.shields.io/github/stars/username/repo)
->[Issues](https://img.shields.io/github/issues/username/repo)
+![Issues](https://img.shields.io/github/issues/username/repo)
+>[!IMPORTANT]
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
