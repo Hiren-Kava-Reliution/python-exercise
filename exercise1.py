@@ -23,19 +23,19 @@ class product:
     def __str__(self):
         return f"Name : {self.name} \n Code : {self.code} \n Category : {self.category.name} \n Price : {self.price}"
 
-    print("All Products List")
     def disproducts(products):
+        print("-- All Products List --")
         for pr2 in products:
             print(f"Name : {pr2.name}, Price : {pr2.price}")
 
-    print("Sorted List")
     def srtli(procucts):
+        print("-- Sorted List --")
         products.sort(key=lambda x: x.price)
         for pr3 in products:
             print(f"Name : {pr3.name}, Price : {pr3.price}")
-    
-    print("Reverse List")
+
     def revli(products):
+        print("-- Reverse List --")
         products.sort(key=lambda x : x.price, reverse=True)
         for pr4 in products:
             print(f"Name : {pr4.name}, Price : {pr4.price}")
