@@ -7,6 +7,10 @@ class category:
     def __str__(self):
         return f"Category : {self.name} \n Code : {self.code} \n No. Of Products : {self.no_of_products}"
 
+    def disctr(ctrlis):
+        for prr in ctrlis:
+            print(prr)
+
 
 class product:
     def __init__(self, name, code, category, price):
@@ -18,6 +22,29 @@ class product:
 
     def __str__(self):
         return f"Name : {self.name} \n Code : {self.code} \n Category : {self.category.name} \n Price : {self.price}"
+
+    print("All Products List")
+    def disproducts(products):
+        for pr2 in products:
+            print(f"Name : {pr2.name}, Price : {pr2.price}")
+
+    print("Sorted List")
+    def srtli(procucts):
+        products.sort(key=lambda x: x.price)
+        for pr3 in products:
+            print(f"Name : {pr3.name}, Price : {pr3.price}")
+    
+    print("Reverse List")
+    def revli(products):
+        products.sort(key=lambda x : x.price, reverse=True)
+        for pr4 in products:
+            print(f"Name : {pr4.name}, Price : {pr4.price}")
+
+    def search(prli, cde):
+        for p in prli:
+            if p.code == cde:
+                return p
+        return None
 
 
 cars = category("Cars", 11)
@@ -39,32 +66,42 @@ products = [
 
 for pr1 in [cars, electronics, foods]:
     print(pr1)
-print("-- All Products List --")
-for pr2 in products:
-    print(f"Name : {pr2.name}, Price : {pr2.price}")
+#print("-- All Products List --")
+#for pr2 in products:
+#    print(f"Name : {pr2.name}, Price : {pr2.price}")
 
-print("-- Sorted All Products List --")
-products.sort(key=lambda x: x.price)
+#print("-- Sorted All Products List --")
+#products.sort(key=lambda x: x.price)
 
-for pr3 in products:
-    print(f"Name : {pr3.name}, Price : {pr3.price}")
+#for pr3 in products:
+#    print(f"Name : {pr3.name}, Price : {pr3.price}")
 
-print("-- Reverse Sorted All Products List --")
-products.sort(key=lambda x: x.price, reverse=True)
+#print("-- Reverse Sorted All Products List --")
+#products.sort(key=lambda x: x.price, reverse=True)
 
-for pr4 in products:
-    print(f"Name : {pr4.name}, Price : {pr4.price}")
-
-
-def search(prli, cde):
-    for p in prli:
-        if p.code == cde:
-            return p
-    return None
+#for pr4 in products:
+#    print(f"Name : {pr4.name}, Price : {pr4.price}")
 
 
-srch = search(products, 1)
+#def search(prli, cde):
+#    for p in prli:
+#        if p.code == cde:
+#            return p
+#    return None
+
+product.disproducts(products)
+
+#srch = search(products, 1)
+#if srch:
+#    print(f"Product Found : {srch.name}")
+#else:
+#    print(f"Product Not Found")
+product.srtli(products)
+
+product.revli(products)
+
+srch = product.search(products, 111)
 if srch:
     print(f"Product Found : {srch.name}")
 else:
-    print(f"Product Not Found")
+    print("Product Not Found")
